@@ -21,9 +21,6 @@
            sync-c="true"
            sync-j="4" />
 
-<!-- KERNEL -->
-  <project name="kernel_samsung_smdk4412.git" path="kernel/samsung/smdk4412" remote="fossencdi" />
-  
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -544,5 +541,16 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+
+<!-- KERNEL -->
+  <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412.git" remote="fossencdi" revision="replicant-6.0" />
+
+<!-- DEVICE SPECIFIC -->
+  <project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" />
+  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" />
+  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" />
+  <project name="CyanogenMod/android_external_stlport" path="external/stlport" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" />
 
 </manifest>
