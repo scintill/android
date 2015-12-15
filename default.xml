@@ -546,11 +546,10 @@
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412.git" remote="fossencdi" revision="replicant-6.0" />
 
 <!-- DEVICE SPECIFIC -->
-  <project path="device/samsung/i9300" name="CyanogenMod/android_device_samsung_i9300" />
+  <project path="device/samsung/i9300" name="device_samsung_i9300.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" />
 
 </manifest>
