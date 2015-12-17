@@ -22,7 +22,7 @@
            sync-j="4" />
 
 <!-- BEGIN CYANOGENMOD -->
-  <project path="build" name="CyanogenMod/android_build" groups="pdk" >
+  <project path="build" name="replicant_build.git" remote="fossencdi" revision="replicant-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="CyanogenMod/android" />
@@ -49,7 +49,7 @@
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" groups="pdk" />
   <project path="external/bash" name="CyanogenMod/android_external_bash" />
-  <project path="external/boringssl" name="CyanogenMod/android_external_boringssl" groups="pdk" />
+  <project path="external/boringssl" name="platform/external/boringssl" groups="pdk" remote="aosp" />
   <project path="external/bouncycastle" name="CyanogenMod/android_external_bouncycastle" groups="pdk" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" />
@@ -175,7 +175,7 @@
   <project path="hardware/intel/img/hwcomposer" name="CyanogenMod/android_hardware_intel_img_hwcomposer" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="CyanogenMod/android_hardware_intel_img_psb_video" groups="intel" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="replicant_libhardware.git" remote="fossencdi" revision="replicant-6.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/qcom/audio/default" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" />
@@ -526,7 +526,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" remote="aosp" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -548,6 +547,8 @@
 <!-- DEVICE SPECIFIC -->
   <project path="device/samsung/i9300" name="device_samsung_i9300.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common.git" remote="fossencdi" revision="replicant-6.0" />
+  <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="fossencdi" revision="replicant-6.0" />
+  <project path="external/external_libsamsung-ipc" name="external_libsamsung-ipc.git.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
