@@ -548,7 +548,7 @@
   <project path="device/samsung/i9300" name="device_samsung_i9300.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="fossencdi" revision="replicant-6.0" />
-  <project path="external/external_libsamsung-ipc" name="external_libsamsung-ipc.git.git" remote="fossencdi" revision="replicant-6.0" />
+  <project path="external/external_libsamsung-ipc" name="external_libsamsung-ipc.git" remote="fossencdi" revision="replicant-6.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
