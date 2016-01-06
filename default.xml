@@ -535,7 +535,6 @@
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" remote="aosp" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" remote="aosp" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="notdefault,pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" />
