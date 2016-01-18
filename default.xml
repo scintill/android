@@ -11,7 +11,7 @@
            review="review.cyanogenmod.org" />
 
   <remote name="fossencdi"
-	  fetch="https://code.fossencdi.org/" />
+	  fetch="git://code.fossencdi.org/" />
 
   <remote name="replicant"
 	  fetch="https://git.replicant.us/" />
