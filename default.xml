@@ -536,7 +536,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="notdefault,pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="prebuilts_sdk.git" groups="pdk" clone-depth="1" remote="fossencdi" revision="replicant-6.0" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="notdefault,pdk,tools" clone-depth="1" remote="aosp" />
-  <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="sdk" name="replicant_sdk.git" groups="pdk-cw-fs,pdk-fs" remote="fossencdi" revision="replicant-6.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
 
