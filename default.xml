@@ -531,9 +531,9 @@
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="notdefault,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="notdefault,pdk-cw-fs,pdk-fs" clone-depth="1" remote="aosp" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="notdefault,pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/ndk" name="prebuilts_ndk.git" groups="pdk" clone-depth="1" remote="fossencdi" revision="replicant-6.0" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="notdefault,pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk.git" groups="pdk" clone-depth="1" remote="fossencdi" revision="replicant-6.0" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="notdefault,pdk,tools" clone-depth="1" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
@@ -542,8 +542,8 @@
 <!-- TOOLCHAIN -->
 <project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" revision="master" />
 <project path="toolchain/src/gcc" name="toolchain/gcc" remote="aosp" revision="master" />
-<project path="toolchain/src/jack" name="toolchain/jack" remote="aosp" revision="ub-jack-brest" />
-<project path="toolchain/src/jill" name="toolchain/jill" remote="aosp" revision="ub-jack-brest" />
+<project path="toolchain/src/jack" name="toolchain_jack.git" remote="fossencdi" revision="ub-jack-brest" />
+<project path="toolchain/src/jill" name="toolchain_jill.git" remote="fossencdi" revision="ub-jack-brest" />
 
 <!-- KERNEL -->
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412.git" remote="fossencdi" revision="replicant-6.0" />
