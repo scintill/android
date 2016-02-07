@@ -542,7 +542,7 @@
 
 <!-- TOOLCHAIN -->
 <project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" revision="master" />
-<project path="toolchain/src/gcc" name="toolchain/gcc" remote="aosp" revision="master" />
+<project path="toolchain/src/gcc" name="toolchain/gcc" remote="cm-mirror" revision="master" />
 <project path="toolchain/src/jack" name="toolchain_jack.git" remote="fossencdi" revision="replicant-6.0" />
 <project path="toolchain/src/jill" name="toolchain_jill.git" remote="fossencdi" revision="replicant-6.0" />
 
