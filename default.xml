@@ -30,7 +30,7 @@
   <project path="build" name="replicant_build.git" remote="fossencdi" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
+  <project path="android" name="replicant_manifest.git" remote="fossencdi" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="art.git" remote="fossencdi" groups="pdk" />
   <project path="bionic" name="bionic.git" remote="fossencdi" groups="pdk" />
