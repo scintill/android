@@ -11,8 +11,7 @@
            review="review.cyanogenmod.org" />
 
   <remote name="fossencdi"
-	  fetch="https://code.fossencdi.org/"
-          revision="replicant-6.0" />
+	  fetch="https://code.fossencdi.org/" />
 
   <remote name="replicant"
 	  fetch="https://git.replicant.us/"
@@ -543,7 +542,7 @@
 <!-- END AOSP -->
 
 <!-- TOOLCHAIN -->
-<project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" revision="master" />
+<project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" />
 <project path="toolchain/src/gcc" name="toolchain/gcc" />
 <project path="toolchain/src/jack" name="toolchain_jack.git" remote="fossencdi" />
 <project path="toolchain/src/jill" name="toolchain_jill.git" remote="fossencdi" />
