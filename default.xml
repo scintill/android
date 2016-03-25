@@ -20,7 +20,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/replicant-6.0-alpha-0003"
+  <default revision="refs/tags/replicant-6.0-alpha-0004"
            remote="cm-mirror"
            sync-c="true"
            sync-j="4" />
