@@ -511,7 +511,7 @@
 
 <!-- TOOLCHAIN -->
 <project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" revision="master" />
-<project path="toolchain/src/gcc" name="toolchain/gcc" revision="master" />
+<project path="toolchain/src/gcc" name="toolchain_gcc.git" remote="fossencdi" revision="master" />
 <project path="toolchain/src/jack" name="toolchain_jack.git" remote="fossencdi" />
 <project path="toolchain/src/jill" name="toolchain_jill.git" remote="fossencdi" />
 
