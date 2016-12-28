@@ -141,7 +141,6 @@
   <project path="external/tinyxml2" name="CyanogenMod/android_external_tinyxml2" groups="pdk" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" />
   <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" />
-  <project path="external/unrar" name="CyanogenMod/android_external_unrar" />
   <project path="external/unzip" name="CyanogenMod/android_external_unzip" />
   <project path="external/vim" name="CyanogenMod/android_external_vim" />
   <project path="external/vogar" name="CyanogenMod/android_external_vogar" groups="pdk" />
