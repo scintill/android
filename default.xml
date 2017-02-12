@@ -286,7 +286,7 @@
   <project path="packages/wallpapers/NoiseField" name="LineageOS/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
   <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
-  <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
+  <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" groups="notdefault,pdk" />
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
   <project path="system/core" name="system_core.git" remote="fossencdi" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
