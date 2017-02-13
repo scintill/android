@@ -36,7 +36,7 @@
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="bionic.git" remote="fossencdi" groups="pdk" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery.git" remote="fossencdi" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
@@ -297,7 +297,7 @@
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="vendor/replicant" name="vendor_replicant.git" remote="fossencdi" />
-  <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk" name="vendor_cmsdk.git" remote="fossencdi" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
