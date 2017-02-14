@@ -35,7 +35,7 @@
   <project path="android" name="replicant_manifest.git" revision="replicant-6.0-dev" remote="fossencdi" />
   <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bionic" name="bionic.git" remote="fossencdi" groups="pdk" />
+  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery.git" remote="fossencdi" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
