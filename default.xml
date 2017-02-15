@@ -529,12 +529,12 @@
   <project path="device/samsung/i9305" name="device_samsung_i9305.git" remote="fossencdi" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common.git" remote="fossencdi" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common.git" remote="fossencdi" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" />
+  <project path="device/samsung/smdk4412-qcom-common" name="LineageOS/android_device_samsung_smdk4412-qcom-common" />
   <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="fossencdi" />
   <project path="external/libsamsung-ipc" name="external_libsamsung-ipc.git" remote="fossencdi" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
   <project path="hardware/tinyalsa-audio" name="hardware_tinyalsa-audio" remote="fossencdi" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" />
 
 </manifest>
