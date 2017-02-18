@@ -13,10 +13,6 @@
 	  fetch="https://code.fossencdi.org/"
           revision="replicant-6.0" />
 
-  <remote name="replicant"
-	  fetch="https://git.replicant.us/"
-          revision="replicant-4.2" />
-
   <remote name="fdroid"
 	  fetch="https://gitlab.com/fdroid/" />
 
