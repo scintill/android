@@ -22,7 +22,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/tags/replicant-6.0-beta-0001"
+  <default revision="refs/tags/replicant-6.0-beta-0002"
            remote="cm-mirror"
            sync-c="true"
            sync-j="4" />
