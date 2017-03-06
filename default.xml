@@ -28,7 +28,7 @@
   <project path="build" name="replicant/build.git" remote="replicant" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="replicant/manifest.git" revision="replicant-6.0-dev" remote="replicant" />
+  <project path="manifest" name="replicant/manifest.git" revision="replicant-6.0-dev" remote="replicant" />
   <project path="abi/cpp" name="LineageOS-mirror/android_abi_cpp.git" groups="pdk" />
   <project path="art" name="LineageOS-mirror/android_art.git" groups="pdk" />
   <project path="bionic" name="LineageOS-mirror/android_bionic.git" groups="pdk" />
