@@ -525,6 +525,7 @@
   <project path="device/samsung/n7100" name="replicant/device_samsung_n7100.git" remote="replicant" />
   <project path="device/samsung/galaxys2-common" name="replicant/device_samsung_galaxys2-common.git" remote="replicant" />
   <project path="device/samsung/smdk4412-common" name="replicant/device_samsung_smdk4412-common.git" remote="replicant" />
+  <project path="device/samsung/smdk4412-qcom-common" name="LineageOS-mirror/android_device_samsung_smdk4412-qcom-common.git" />
   <project path="hardware/ril/samsung-ril" name="replicant/hardware_ril_samsung-ril.git" remote="replicant" />
   <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc.git" remote="replicant" />
   <project path="packages/apps/SamsungServiceMode" name="LineageOS-mirror/android_packages_apps_SamsungServiceMode.git" />
