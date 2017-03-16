@@ -209,6 +209,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS-mirror/android_packages_apps_CellBroadcastReceiver.git" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS-mirror/android_packages_apps_CertInstaller.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CMFileManager" name="LineageOS-mirror/android_packages_apps_CMFileManager.git" />
+  <project path="packages/apps/RepWifi" name="replicant/packages_apps_repwifi.git" remote="replicant" />
   <project path="packages/apps/ReplicantWallpapers" name="replicant/packages_apps_replicantwallpapers.git" remote="replicant" />
   <project path="packages/apps/Contacts" name="LineageOS-mirror/android_packages_apps_Contacts.git" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="LineageOS-mirror/android_packages_apps_ContactsCommon.git" groups="pdk-fs" />
