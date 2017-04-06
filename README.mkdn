@@ -15,7 +15,7 @@ We are not experts in embedded devices, just a couple enthusiastic hackers that 
 Credits
 -------
 
-Replicant is based on LineageOS <http://lineageos.org/> which is based on the Android Open Source Project <http://www.android.com/>.
+Replicant is based on [LineageOS](http://lineageos.org/) which is based on the [Android Open Source Project](https://source.android.com/).
 
 Contributors
 ------------
@@ -35,6 +35,7 @@ Links
 -----
 
 Website: <http://www.replicant.us/>
+
 Wiki/Tracker: <http://redmine.replicant.us/>
 
 LineageOS
