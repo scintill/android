@@ -26,7 +26,7 @@ However, a (non-exhaustive) list of people who specifically contribute(d) to Rep
 Artwork copyright
 -----------------
 
-Copyright 2011 Mirella Vedovetto
+Copyright 2011 Mirella Vedovetto  
 Copyright 2012 Paul Kocialkowski
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
@@ -34,8 +34,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unpo
 Links
 -----
 
-Website: <http://www.replicant.us/>
-
+Website: <http://www.replicant.us/>  
 Wiki/Tracker: <http://redmine.replicant.us/>
 
 LineageOS
