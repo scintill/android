@@ -79,6 +79,7 @@
   <project path="external/gptfdisk" name="LineageOS-mirror/android_external_gptfdisk.git" groups="pdk-fs" />
   <project path="external/gson" name="LineageOS-mirror/android_external_gson.git" />
   <project path="external/guava" name="LineageOS-mirror/android_external_guava.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/heimdall" name="replicant/external_heimdall.git" remote="replicant" />
   <project path="external/htop" name="LineageOS-mirror/android_external_htop.git" />
   <project path="external/icu" name="LineageOS-mirror/android_external_icu.git" groups="pdk" />
   <project path="external/iproute2" name="LineageOS-mirror/android_external_iproute2.git" groups="pdk" />
