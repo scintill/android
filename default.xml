@@ -220,7 +220,7 @@
   <project path="packages/apps/Email" name="LineageOS-mirror/android_packages_apps_Email.git" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="LineageOS-mirror/android_packages_apps_ExactCalculator.git" groups="pdk-fs" />
   <project path="packages/apps/Exchange" name="LineageOS-mirror/android_packages_apps_Exchange.git" groups="pdk-fs" />
-  <project path="packages/apps/FDroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.3" />
+  <project path="packages/apps/FDroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.4" />
   <project path="packages/apps/FMRadio" name="LineageOS-mirror/android_packages_apps_FMRadio.git" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery.git" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/Gallery2" name="LineageOS-mirror/android_packages_apps_Gallery2.git" groups="pdk-fs" />
