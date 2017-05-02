@@ -21,7 +21,7 @@ Contributors
 ------------
 
 The full list of contributors to the Replicant code base must be very long since it is based on LineageOS and AOSP, which are both using third party projects.
-However, a (non-exhaustive) list of people who specifically contribute(d) to Replicant is available at: <http://redmine.replicant.us/projects/replicant/wiki/People>
+However, a (non-exhaustive) list of people who specifically contribute(d) to Replicant is available at: <https://redmine.replicant.us/projects/replicant/wiki/People>
 
 Artwork copyright
 -----------------
@@ -34,8 +34,8 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unpo
 Links
 -----
 
-Website: <http://www.replicant.us/>  
-Wiki/Tracker: <http://redmine.replicant.us/>
+Website: <https://www.replicant.us/>  
+Wiki/Tracker: <https://redmine.replicant.us/>
 
 LineageOS
 =========
