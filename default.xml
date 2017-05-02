@@ -73,6 +73,7 @@
   <project path="external/f2fs-tools" name="LineageOS-mirror/android_external_f2fs-tools.git" groups="pdk" />
   <project path="external/ffmpeg" name="LineageOS-mirror/android_external_ffmpeg.git" />
   <project path="external/flac" name="LineageOS-mirror/android_external_flac.git" groups="pdk" />
+  <project path="external/freetype" name="LineageOS-mirror/android_external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="LineageOS-mirror/android_external_fsck_msdos.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="LineageOS-mirror/android_external_fuse.git" />
   <project path="external/gello-build" name="LineageOS-mirror/android_external_gello_build.git" />
@@ -92,11 +93,14 @@
   <project path="external/koush/AndroidAsync" name="LineageOS-mirror/AndroidAsync.git" />
   <project path="external/koush/ion" name="LineageOS-mirror/ion.git" />
   <project path="external/libavc" name="LineageOS-mirror/android_external_libavc.git" groups="pdk" />
+  <project path="external/libhevc" name="LineageOS-mirror/android_external_libhevc.git" groups="pdk-fs" />
+  <project path="external/libmpeg2" name="LineageOS-mirror/android_external_libmpeg2" groups="pdk" />
   <project path="external/libncurses" name="LineageOS-mirror/android_external_libncurses.git" />
   <project path="external/libnetfilter_conntrack" name="LineageOS-mirror/android_external_libnetfilter_conntrack.git" />
   <project path="external/libnfc-nci" name="LineageOS-mirror/android_external_libnfc-nci.git" groups="pdk" />
   <project path="external/libnfc-nxp" name="LineageOS-mirror/android_external_libnfc-nxp.git" groups="pdk" />
   <project path="external/libnfnetlink" name="LineageOS-mirror/android_external_libnfnetlink.git" />
+  <project path="external/libnl" name="LineageOS-mirror/android_external_libnl" groups="pdk"  />
   <project path="external/libphonenumbergoogle" name="LineageOS-mirror/android_external_libphonenumbergoogle.git" />
   <project path="external/libselinux" name="LineageOS-mirror/android_external_libselinux.git" groups="pdk" />
   <project path="external/libtar" name="LineageOS-mirror/android_external_libtar.git" />
@@ -357,7 +361,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
-  <project path="external/freetype" name="platform/external/freetype" groups="pdk" remote="aosp" />
   <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
@@ -394,11 +397,8 @@
   <project path="external/libedit" name="platform/external/libedit" groups="pdk-fs" remote="aosp" />
   <project path="external/libexif" name="platform/external/libexif" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/libgsm" name="platform/external/libgsm" groups="pdk" remote="aosp" />
-  <project path="external/libhevc" name="platform/external/libhevc" groups="pdk-fs" remote="aosp" />
   <project path="external/liblzf" name="platform/external/liblzf" groups="pdk" remote="aosp" />
-  <project path="external/libmpeg2" name="platform/external/libmpeg2" groups="pdk" remote="aosp" />
   <project path="external/libmtp" name="platform/external/libmtp" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="external/libnl" name="platform/external/libnl" groups="pdk" remote="aosp" />
   <project path="external/libogg" name="platform/external/libogg" groups="pdk" remote="aosp" />
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" remote="aosp" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs,pdk-fs" remote="aosp" />

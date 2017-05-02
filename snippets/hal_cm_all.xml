@@ -10,6 +10,7 @@
   <project path="hardware/qcom/media/default" name="LineageOS-mirror/android_hardware_qcom_media.git" groups="qcom" />
   <project path="hardware/qcom/wlan" name="LineageOS-mirror/android_hardware_qcom_wlan.git" groups="qcom_wlan" />
   <project path="hardware/ril" name="LineageOS-mirror/android_hardware_ril.git" groups="pdk" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="LineageOS-mirror/android_vendor_qcom_opensource_cryptfs_hw" />
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS-mirror/android_vendor_qcom_opensource_dataservices.git" />
   <project path="vendor/qcom/opensource/dpm" name="LineageOS-mirror/android_vendor_qcom_opensource_dpm.git" />
   <project path="vendor/qcom/opensource/time-services" name="LineageOS-mirror/android_vendor_qcom_opensource_time-services.git" />
