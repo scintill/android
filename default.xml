@@ -28,276 +28,276 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="replicant_manifest.git" revision="replicant-6.0-dev" remote="fossencdi" />
-  <project path="abi/cpp" name="LineageOS/android_abi_cpp" groups="pdk" />
-  <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
+  <project path="abi/cpp" name="LineageOS-mirror/android_abi_cpp.git" groups="pdk" />
+  <project path="art" name="LineageOS-mirror/android_art.git" groups="pdk" />
+  <project path="bionic" name="LineageOS-mirror/android_bionic.git" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery.git" remote="fossencdi" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
-  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
-  <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/common" name="LineageOS/android_device_common" groups="pdk-cw-fs,pdk-fs" />
-  <project path="device/generic/arm64" name="LineageOS/android_device_generic_arm64" groups="pdk" />
-  <project path="device/generic/armv7-a-neon" name="LineageOS/android_device_generic_armv7-a-neon" groups="pdk" />
-  <project path="device/generic/common" name="LineageOS/android_device_generic_common" groups="pdk" />
-  <project path="device/generic/goldfish" name="LineageOS/android_device_generic_goldfish" groups="pdk" />
-  <project path="device/generic/mips" name="LineageOS/android_device_generic_mips" groups="pdk" />
-  <project path="device/google/atv" name="LineageOS/android_device_google_atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" />
-  <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" />
-  <project path="external/android-clat" name="LineageOS/android_external_android-clat" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/android-mock" name="LineageOS/android_external_android-mock" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/android-visualizer" name="LineageOS/android_external_android-visualizer" />
-  <project path="external/android/support-prebuilt" name="LineageOS/external_android_support-prebuilt" />
-  <project path="external/ant-glob" name="LineageOS/android_external_ant-glob" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
-  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" />
-  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
-  <project path="external/apache-http" name="LineageOS/android_external_apache-http" groups="pdk" />
-  <project path="external/bash" name="LineageOS/android_external_bash" />
+  <project path="dalvik" name="LineageOS-mirror/android_dalvik.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="development" name="LineageOS-mirror/android_development.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/common" name="LineageOS-mirror/android_device_common.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="device/generic/arm64" name="LineageOS-mirror/android_device_generic_arm64.git" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" name="LineageOS-mirror/android_device_generic_armv7-a-neon.git" groups="pdk" />
+  <project path="device/generic/common" name="LineageOS-mirror/android_device_generic_common.git" groups="pdk" />
+  <project path="device/generic/goldfish" name="LineageOS-mirror/android_device_generic_goldfish.git" groups="pdk" />
+  <project path="device/generic/mips" name="LineageOS-mirror/android_device_generic_mips.git" groups="pdk" />
+  <project path="device/google/atv" name="LineageOS-mirror/android_device_google_atv.git" groups="device,fugu,broadcom_pdk,generic_fs" />
+  <project path="device/qcom/sepolicy" name="LineageOS-mirror/android_device_qcom_sepolicy.git" />
+  <project path="external/ahbottomnavigation" name="LineageOS-mirror/android_external_ahbottomnavigation.git" />
+  <project path="external/android-clat" name="LineageOS-mirror/android_external_android-clat.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-mock" name="LineageOS-mirror/android_external_android-mock.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/android-visualizer" name="LineageOS-mirror/android_external_android-visualizer.git" />
+  <project path="external/android/support-prebuilt" name="LineageOS-mirror/external_android_support-prebuilt.git" />
+  <project path="external/ant-glob" name="LineageOS-mirror/android_external_ant-glob.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ant-wireless/ant_native" name="LineageOS-mirror/android_external_ant-wireless_ant_native.git" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS-mirror/android_external_ant-wireless_ant_service.git" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS-mirror/android_external_ant-wireless_antradio-library.git" />
+  <project path="external/apache-http" name="LineageOS-mirror/android_external_apache-http.git" groups="pdk" />
+  <project path="external/bash" name="LineageOS-mirror/android_external_bash.git" />
   <project path="external/boringssl" name="external_boringssl.git" remote="fossencdi" groups="pdk" />
-  <project path="external/bouncycastle" name="LineageOS/android_external_bouncycastle" groups="pdk" />
-  <project path="external/brctl" name="LineageOS/android_external_brctl" />
-  <project path="external/bzip2" name="LineageOS/android_external_bzip2" groups="pdk" />
-  <project path="external/cmsdk-api-coverage" name="LineageOS/android_external_cmsdk-api-coverage" />
-  <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-  <project path="external/curl" name="LineageOS/android_external_curl" />
-  <project path="external/dhcpcd" name="LineageOS/android_external_dhcpcd" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dnsmasq" name="LineageOS/android_external_dnsmasq" groups="pdk" />
-  <project path="external/doclava" name="LineageOS/android_external_doclava" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/e2fsprogs" name="LineageOS/android_external_e2fsprogs" groups="pdk" />
-  <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
-  <project path="external/elfutils" name="LineageOS/android_external_elfutils" groups="pdk" />
-  <project path="external/exfat" name="LineageOS/android_external_exfat" />
-  <project path="external/f2fs-tools" name="LineageOS/android_external_f2fs-tools" groups="pdk" />
-  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />
-  <project path="external/flac" name="LineageOS/android_external_flac" groups="pdk" />
-  <project path="external/fsck_msdos" name="LineageOS/android_external_fsck_msdos" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/fuse" name="LineageOS/android_external_fuse" />
-  <project path="external/gello-build" name="LineageOS/android_external_gello_build" />
-  <project path="external/gmock" name="LineageOS/android_external_gmock"/>
-  <project path="external/gptfdisk" name="LineageOS/android_external_gptfdisk" groups="pdk-fs" />
-  <project path="external/gson" name="LineageOS/android_external_gson" />
-  <project path="external/guava" name="LineageOS/android_external_guava" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/htop" name="LineageOS/android_external_htop" />
-  <project path="external/icu" name="LineageOS/android_external_icu" groups="pdk" />
-  <project path="external/iproute2" name="LineageOS/android_external_iproute2" groups="pdk" />
-  <project path="external/iptables" name="LineageOS/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/jarjar" name="LineageOS/android_external_jarjar" groups="pdk" />
-  <project path="external/jpeg" name="LineageOS/android_external_jpeg" groups="pdk" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" />
-  <project path="external/jsr305" name="LineageOS/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/koush/AndroidAsync" name="LineageOS/AndroidAsync" />
-  <project path="external/koush/ion" name="LineageOS/ion" />
-  <project path="external/libavc" name="LineageOS/android_external_libavc" groups="pdk" />
-  <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
-  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
-  <project path="external/libnfc-nci" name="LineageOS/android_external_libnfc-nci" groups="pdk" />
-  <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" groups="pdk" />
-  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
-  <project path="external/libphonenumbergoogle" name="LineageOS/android_external_libphonenumbergoogle" />
-  <project path="external/libselinux" name="LineageOS/android_external_libselinux" groups="pdk" />
-  <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <project path="external/libusb" name="LineageOS/android_external_libusb" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libusbx" name="LineageOS/android_external_libusbx" />
-  <project path="external/libvpx" name="LineageOS/android_external_libvpx" groups="pdk" />
-  <project path="external/libvterm" name="LineageOS/android_external_libvterm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libxml2" name="LineageOS/android_external_libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
-  <project path="external/libxslt" name="LineageOS/android_external_libxslt" />
-  <project path="external/linux-tools-perf" name="LineageOS/android_external_linux-tools-perf" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />
-  <project path="external/lz4" name="LineageOS/android_external_lz4" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/lzma" name="LineageOS/android_external_lzma" groups="pdk" />
-  <project path="external/lzo" name="LineageOS/android_external_lzo" />
-  <project path="external/mksh" name="LineageOS/android_external_mksh" groups="pdk" />
-  <project path="external/nano" name="LineageOS/android_external_nano" />
-  <project path="external/nist-sip" name="LineageOS/android_external_nist-sip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
-  <project path="external/okhttp" name="LineageOS/android_external_okhttp" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/openssh" name="LineageOS/android_external_openssh" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
-  <project path="external/pcre" name="LineageOS/android_external_pcre" groups="pdk" />
-  <project path="external/pdfium" name="LineageOS/android_external_pdfium" groups="pdk" />
-  <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" />
-  <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
-  <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/sepolicy" name="LineageOS/android_external_sepolicy" groups="pdk" />
-  <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
-  <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
-  <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
-  <project path="external/spongycastle" name="LineageOS/android_external_spongycastle" groups="pdk" />
-  <project path="external/sqlite" name="LineageOS/android_external_sqlite" groups="pdk" />
-  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />
-  <project path="external/strace" name="LineageOS/android_external_strace" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/tcpdump" name="LineageOS/android_external_tcpdump" groups="pdk,pdk-cw-fs,pdk-fs" />
-  <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="LineageOS/android_external_tinycompress" groups="pdk" />
-  <project path="external/tinyxml2" name="LineageOS/android_external_tinyxml2" groups="pdk" />
-  <project path="external/toybox" name="LineageOS/android_external_toybox" groups="pdk" />
-  <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" />
-  <project path="external/unzip" name="LineageOS/android_external_unzip" />
-  <project path="external/vim" name="LineageOS/android_external_vim" />
-  <project path="external/vogar" name="LineageOS/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
-  <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
-  <project path="external/zip" name="LineageOS/android_external_zip" />
-  <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
+  <project path="external/bouncycastle" name="LineageOS-mirror/android_external_bouncycastle.git" groups="pdk" />
+  <project path="external/brctl" name="LineageOS-mirror/android_external_brctl.git" />
+  <project path="external/bzip2" name="LineageOS-mirror/android_external_bzip2.git" groups="pdk" />
+  <project path="external/cmsdk-api-coverage" name="LineageOS-mirror/android_external_cmsdk-api-coverage.git" />
+  <project path="external/connectivity" name="LineageOS-mirror/android_external_connectivity.git" />
+  <project path="external/curl" name="LineageOS-mirror/android_external_curl.git" />
+  <project path="external/dhcpcd" name="LineageOS-mirror/android_external_dhcpcd.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/dnsmasq" name="LineageOS-mirror/android_external_dnsmasq.git" groups="pdk" />
+  <project path="external/doclava" name="LineageOS-mirror/android_external_doclava.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/e2fsprogs" name="LineageOS-mirror/android_external_e2fsprogs.git" groups="pdk" />
+  <project path="external/ebtables" name="LineageOS-mirror/android_external_ebtables.git" />
+  <project path="external/elfutils" name="LineageOS-mirror/android_external_elfutils.git" groups="pdk" />
+  <project path="external/exfat" name="LineageOS-mirror/android_external_exfat.git" />
+  <project path="external/f2fs-tools" name="LineageOS-mirror/android_external_f2fs-tools.git" groups="pdk" />
+  <project path="external/ffmpeg" name="LineageOS-mirror/android_external_ffmpeg.git" />
+  <project path="external/flac" name="LineageOS-mirror/android_external_flac.git" groups="pdk" />
+  <project path="external/fsck_msdos" name="LineageOS-mirror/android_external_fsck_msdos.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/fuse" name="LineageOS-mirror/android_external_fuse.git" />
+  <project path="external/gello-build" name="LineageOS-mirror/android_external_gello_build.git" />
+  <project path="external/gmock" name="LineageOS-mirror/android_external_gmock.git"/>
+  <project path="external/gptfdisk" name="LineageOS-mirror/android_external_gptfdisk.git" groups="pdk-fs" />
+  <project path="external/gson" name="LineageOS-mirror/android_external_gson.git" />
+  <project path="external/guava" name="LineageOS-mirror/android_external_guava.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/htop" name="LineageOS-mirror/android_external_htop.git" />
+  <project path="external/icu" name="LineageOS-mirror/android_external_icu.git" groups="pdk" />
+  <project path="external/iproute2" name="LineageOS-mirror/android_external_iproute2.git" groups="pdk" />
+  <project path="external/iptables" name="LineageOS-mirror/android_external_iptables.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/jarjar" name="LineageOS-mirror/android_external_jarjar.git" groups="pdk" />
+  <project path="external/jpeg" name="LineageOS-mirror/android_external_jpeg.git" groups="pdk" />
+  <project path="external/json-c" name="LineageOS-mirror/android_external_json-c.git" />
+  <project path="external/jsr305" name="LineageOS-mirror/android_external_jsr305.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/koush/AndroidAsync" name="LineageOS-mirror/AndroidAsync.git" />
+  <project path="external/koush/ion" name="LineageOS-mirror/ion.git" />
+  <project path="external/libavc" name="LineageOS-mirror/android_external_libavc.git" groups="pdk" />
+  <project path="external/libncurses" name="LineageOS-mirror/android_external_libncurses.git" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS-mirror/android_external_libnetfilter_conntrack.git" />
+  <project path="external/libnfc-nci" name="LineageOS-mirror/android_external_libnfc-nci.git" groups="pdk" />
+  <project path="external/libnfc-nxp" name="LineageOS-mirror/android_external_libnfc-nxp.git" groups="pdk" />
+  <project path="external/libnfnetlink" name="LineageOS-mirror/android_external_libnfnetlink.git" />
+  <project path="external/libphonenumbergoogle" name="LineageOS-mirror/android_external_libphonenumbergoogle.git" />
+  <project path="external/libselinux" name="LineageOS-mirror/android_external_libselinux.git" groups="pdk" />
+  <project path="external/libtar" name="LineageOS-mirror/android_external_libtar.git" />
+  <project path="external/libusb" name="LineageOS-mirror/android_external_libusb.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libusbx" name="LineageOS-mirror/android_external_libusbx.git" />
+  <project path="external/libvpx" name="LineageOS-mirror/android_external_libvpx.git" groups="pdk" />
+  <project path="external/libvterm" name="LineageOS-mirror/android_external_libvterm.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libxml2" name="LineageOS-mirror/android_external_libxml2.git" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <project path="external/libxslt" name="LineageOS-mirror/android_external_libxslt.git" />
+  <project path="external/linux-tools-perf" name="LineageOS-mirror/android_external_linux-tools-perf.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/libtruezip" name="LineageOS-mirror/android_external_libtruezip.git" />
+  <project path="external/lz4" name="LineageOS-mirror/android_external_lz4.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/lzma" name="LineageOS-mirror/android_external_lzma.git" groups="pdk" />
+  <project path="external/lzo" name="LineageOS-mirror/android_external_lzo.git" />
+  <project path="external/mksh" name="LineageOS-mirror/android_external_mksh.git" groups="pdk" />
+  <project path="external/nano" name="LineageOS-mirror/android_external_nano.git" />
+  <project path="external/nist-sip" name="LineageOS-mirror/android_external_nist-sip.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/ntfs-3g" name="LineageOS-mirror/android_external_ntfs-3g.git" />
+  <project path="external/okhttp" name="LineageOS-mirror/android_external_okhttp.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/openssh" name="LineageOS-mirror/android_external_openssh.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/p7zip" name="LineageOS-mirror/android_external_p7zip.git" />
+  <project path="external/pcre" name="LineageOS-mirror/android_external_pcre.git" groups="pdk" />
+  <project path="external/pdfium" name="LineageOS-mirror/android_external_pdfium.git" groups="pdk" />
+  <project path="external/pigz" name="LineageOS-mirror/android_external_pigz.git" />
+  <project path="external/powertop" name="LineageOS-mirror/android_external_powertop.git" />
+  <project path="external/protobuf-c" name="LineageOS-mirror/android_external_protobuf-c.git" />
+  <project path="external/rsync" name="LineageOS-mirror/android_external_rsync.git" />
+  <project path="external/sepolicy" name="LineageOS-mirror/android_external_sepolicy.git" groups="pdk" />
+  <project path="external/skia" name="LineageOS-mirror/android_external_skia.git" groups="pdk,qcom_msm8x26" />
+  <project path="external/sonivox" name="LineageOS-mirror/android_external_sonivox.git" groups="pdk" />
+  <project path="external/speex" name="LineageOS-mirror/android_external_speex.git" groups="pdk" />
+  <project path="external/spongycastle" name="LineageOS-mirror/android_external_spongycastle.git" groups="pdk" />
+  <project path="external/sqlite" name="LineageOS-mirror/android_external_sqlite.git" groups="pdk" />
+  <project path="external/stagefright-plugins" name="LineageOS-mirror/android_external_stagefright-plugins.git" />
+  <project path="external/strace" name="LineageOS-mirror/android_external_strace.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/tcpdump" name="LineageOS-mirror/android_external_tcpdump.git" groups="pdk,pdk-cw-fs,pdk-fs" />
+  <project path="external/tinyalsa" name="LineageOS-mirror/android_external_tinyalsa.git" groups="pdk" />
+  <project path="external/tinycompress" name="LineageOS-mirror/android_external_tinycompress.git" groups="pdk" />
+  <project path="external/tinyxml2" name="LineageOS-mirror/android_external_tinyxml2.git" groups="pdk" />
+  <project path="external/toybox" name="LineageOS-mirror/android_external_toybox.git" groups="pdk" />
+  <project path="external/uicommon" name="LineageOS-mirror/android_external_cyanogen_UICommon.git" />
+  <project path="external/unzip" name="LineageOS-mirror/android_external_unzip.git" />
+  <project path="external/vim" name="LineageOS-mirror/android_external_vim.git" />
+  <project path="external/vogar" name="LineageOS-mirror/android_external_vogar.git" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS-mirror/android_external_wpa_supplicant_8.git" groups="pdk" />
+  <project path="external/yaffs2" name="LineageOS-mirror/android_external_yaffs2.git" groups="pdk" />
+  <project path="external/zip" name="LineageOS-mirror/android_external_zip.git" />
+  <project path="external/zlib" name="LineageOS-mirror/android_external_zlib.git" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av.git" remote="fossencdi" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base.git" remote="fossencdi" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
-  <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
-  <project path="frameworks/ex" name="LineageOS/android_frameworks_ex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/multidex" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/compile/libbcc" name="LineageOS-mirror/android_frameworks_compile_libbcc.git" groups="pdk" />
+  <project path="frameworks/compile/slang" name="LineageOS-mirror/android_frameworks_compile_slang.git" groups="pdk" />
+  <project path="frameworks/ex" name="LineageOS-mirror/android_frameworks_ex.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/minikin" name="LineageOS-mirror/android_frameworks_minikin.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/ml" name="LineageOS-mirror/android_frameworks_ml.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/multidex" name="LineageOS-mirror/android_frameworks_multidex.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="frameworks_native.git" remote="fossencdi" groups="pdk" />
-  <project path="frameworks/opt/bitmap" name="LineageOS/android_frameworks_opt_bitmap" groups="pdk-fs" />
-  <project path="frameworks/opt/bluetooth" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/chips" name="LineageOS/android_frameworks_opt_chips" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/colorpicker" name="LineageOS/android_frameworks_opt_colorpicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/emoji" name="LineageOS/android_frameworks_opt_emoji" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
-  <project path="frameworks/opt/inputmethodcommon" name="LineageOS/android_frameworks_opt_inputmethodcommon" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/ethernet" name="LineageOS/android_frameworks_opt_net_ethernet" groups="pdk-fs" />
-  <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/voip" name="LineageOS/android_frameworks_opt_net_voip" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
-  <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/setupwizard" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="LineageOS/android_frameworks_opt_telephony" groups="pdk" />
-  <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="LineageOS/android_frameworks_rs" groups="pdk" />
-  <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/wilhelm" name="LineageOS/android_frameworks_wilhelm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="hardware/akm" name="LineageOS/android_hardware_akm" />
-  <project path="hardware/broadcom/libbt" name="LineageOS/android_hardware_broadcom_libbt" groups="pdk" />
+  <project path="frameworks/opt/bitmap" name="LineageOS-mirror/android_frameworks_opt_bitmap.git" groups="pdk-fs" />
+  <project path="frameworks/opt/bluetooth" name="LineageOS-mirror/android_frameworks_opt_bluetooth.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/calendar" name="LineageOS-mirror/android_frameworks_opt_calendar.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/chips" name="LineageOS-mirror/android_frameworks_opt_chips.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/colorpicker" name="LineageOS-mirror/android_frameworks_opt_colorpicker.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/datetimepicker" name="LineageOS-mirror/android_frameworks_opt_datetimepicker.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/emoji" name="LineageOS-mirror/android_frameworks_opt_emoji.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/hardware" name="LineageOS-mirror/android_frameworks_opt_hardware.git" />
+  <project path="frameworks/opt/inputmethodcommon" name="LineageOS-mirror/android_frameworks_opt_inputmethodcommon.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/ethernet" name="LineageOS-mirror/android_frameworks_opt_net_ethernet.git" groups="pdk-fs" />
+  <project path="frameworks/opt/net/ims" name="LineageOS-mirror/android_frameworks_opt_net_ims.git" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/voip" name="LineageOS-mirror/android_frameworks_opt_net_voip.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/net/wifi" name="LineageOS-mirror/android_frameworks_opt_net_wifi.git" groups="pdk" />
+  <project path="frameworks/opt/photoviewer" name="LineageOS-mirror/android_frameworks_opt_photoviewer.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/setupwizard" name="LineageOS-mirror/android_frameworks_opt_setupwizard.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/telephony" name="LineageOS-mirror/android_frameworks_opt_telephony.git" groups="pdk" />
+  <project path="frameworks/opt/timezonepicker" name="LineageOS-mirror/android_frameworks_opt_timezonepicker.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/vcard" name="LineageOS-mirror/android_frameworks_opt_vcard.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/rs" name="LineageOS-mirror/android_frameworks_rs.git" groups="pdk" />
+  <project path="frameworks/support" name="LineageOS-mirror/android_frameworks_support.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/volley" name="LineageOS-mirror/android_frameworks_volley.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/webview" name="LineageOS-mirror/android_frameworks_webview.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/wilhelm" name="LineageOS-mirror/android_frameworks_wilhelm.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="hardware/akm" name="LineageOS-mirror/android_hardware_akm.git" />
+  <project path="hardware/broadcom/libbt" name="LineageOS-mirror/android_hardware_broadcom_libbt.git" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan.git" remote="fossencdi" groups="pdk,broadcom_wlan" />
-  <project path="hardware/cyanogen" name="LineageOS/android_hardware_cyanogen" />
-  <project path="hardware/intel/common/libmix" name="LineageOS/android_hardware_intel_common_libmix" groups="intel" />
-  <project path="hardware/intel/common/libva" name="LineageOS/android_hardware_intel_common_libva" groups="intel" />
-  <project path="hardware/intel/common/libwsbm" name="LineageOS/android_hardware_intel_common_libwsbm" groups="intel" />
-  <project path="hardware/intel/common/omx-components" name="LineageOS/android_hardware_intel_common_omx-components" groups="intel" />
-  <project path="hardware/intel/img/hwcomposer" name="LineageOS/android_hardware_intel_img_hwcomposer" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="LineageOS/android_hardware_intel_img_psb_headers" groups="intel" />
-  <project path="hardware/intel/img/psb_video" name="LineageOS/android_hardware_intel_img_psb_video" groups="intel" />
-  <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense" />
+  <project path="hardware/cyanogen" name="LineageOS-mirror/android_hardware_cyanogen.git" />
+  <project path="hardware/intel/common/libmix" name="LineageOS-mirror/android_hardware_intel_common_libmix.git" groups="intel" />
+  <project path="hardware/intel/common/libva" name="LineageOS-mirror/android_hardware_intel_common_libva.git" groups="intel" />
+  <project path="hardware/intel/common/libwsbm" name="LineageOS-mirror/android_hardware_intel_common_libwsbm.git" groups="intel" />
+  <project path="hardware/intel/common/omx-components" name="LineageOS-mirror/android_hardware_intel_common_omx-components.git" groups="intel" />
+  <project path="hardware/intel/img/hwcomposer" name="LineageOS-mirror/android_hardware_intel_img_hwcomposer.git" groups="intel" />
+  <project path="hardware/intel/img/psb_headers" name="LineageOS-mirror/android_hardware_intel_img_psb_headers.git" groups="intel" />
+  <project path="hardware/intel/img/psb_video" name="LineageOS-mirror/android_hardware_intel_img_psb_video.git" groups="intel" />
+  <project path="hardware/invensense" name="LineageOS-mirror/android_hardware_invensense.git" groups="invensense" />
   <project path="hardware/libhardware" name="replicant_libhardware.git" remote="fossencdi" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="LineageOS-mirror/android_hardware_libhardware_legacy.git" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
-  <project path="hardware/samsung_slsi/exynos5" name="LineageOS/android_hardware_samsung_slsi_exynos5" />
-  <project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />
-  <project path="hardware/ti/omap4xxx" name="LineageOS/android_hardware_ti_omap4xxx" groups="omap4" />
-  <project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />
-  <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
+  <project path="hardware/samsung_slsi/exynos5" name="LineageOS-mirror/android_hardware_samsung_slsi_exynos5.git" />
+  <project path="hardware/ti/omap4" name="LineageOS-mirror/android_hardware_ti_omap4.git" />
+  <project path="hardware/ti/omap4xxx" name="LineageOS-mirror/android_hardware_ti_omap4xxx.git" groups="omap4" />
+  <project path="hardware/ti/wlan" name="LineageOS-mirror/android_hardware_ti_wlan.git" />
+  <project path="hardware/ti/wpan" name="LineageOS-mirror/android_hardware_ti_wpan.git" />
   <project path="libcore" name="libcore.git" remote="fossencdi" groups="pdk" />
-  <project path="libnativehelper" name="LineageOS/android_libnativehelper" groups="pdk" />
-  <project path="packages/apps/AudioFX" name="LineageOS/android_packages_apps_AudioFX" />
-  <project path="packages/apps/BasicSmsReceiver" name="LineageOS/android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Bluetooth" name="LineageOS/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/BluetoothExt" name="LineageOS/android_packages_apps_BluetoothExt" />
+  <project path="libnativehelper" name="LineageOS-mirror/android_libnativehelper.git" groups="pdk" />
+  <project path="packages/apps/AudioFX" name="LineageOS-mirror/android_packages_apps_AudioFX.git" />
+  <project path="packages/apps/BasicSmsReceiver" name="LineageOS-mirror/android_packages_apps_BasicSmsReceiver.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Bluetooth" name="LineageOS-mirror/android_packages_apps_Bluetooth.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/BluetoothExt" name="LineageOS-mirror/android_packages_apps_BluetoothExt.git" />
   <project path="packages/apps/Browser" name="packages_apps_Browser.git" remote="fossencdi" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="LineageOS/android_packages_apps_Calendar" groups="pdk-fs" />
-  <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" groups="pdk-fs" />
+  <project path="packages/apps/Calendar" name="LineageOS-mirror/android_packages_apps_Calendar.git" groups="pdk-fs" />
+  <project path="packages/apps/Camera2" name="LineageOS-mirror/android_packages_apps_Camera2.git" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="LegacyCamera.git" remote="fossencdi" groups="pdk-fs" />
-  <project path="packages/apps/CarrierConfig" name="LineageOS/android_packages_apps_CarrierConfig" groups="pdk-fs" />
-  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
-  <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <project path="packages/apps/CarrierConfig" name="LineageOS-mirror/android_packages_apps_CarrierConfig.git" groups="pdk-fs" />
+  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS-mirror/android_packages_apps_CellBroadcastReceiver.git" groups="pdk-fs" />
+  <project path="packages/apps/CertInstaller" name="LineageOS-mirror/android_packages_apps_CertInstaller.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/CMFileManager" name="LineageOS-mirror/android_packages_apps_CMFileManager.git" />
   <project path="packages/apps/ReplicantWallpapers" name="packages_apps_replicantwallpapers.git" remote="fossencdi" />
-  <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
-  <project path="packages/apps/ContactsCommon" name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
-  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" />
-  <project path="packages/apps/Email" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
-  <project path="packages/apps/ExactCalculator" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
-  <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" groups="pdk-fs" />
+  <project path="packages/apps/Contacts" name="LineageOS-mirror/android_packages_apps_Contact.gits" groups="pdk-fs" />
+  <project path="packages/apps/ContactsCommon" name="LineageOS-mirror/android_packages_apps_ContactsCommon.git" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" name="LineageOS-mirror/android_packages_apps_DeskClock.git" groups="pdk-fs" />
+  <project path="packages/apps/Dialer" name="LineageOS-mirror/android_packages_apps_Dialer.git" groups="pdk-fs" />
+  <project path="packages/apps/Eleven" name="LineageOS-mirror/android_packages_apps_Eleven.git" />
+  <project path="packages/apps/Email" name="LineageOS-mirror/android_packages_apps_Email.git" groups="pdk-fs" />
+  <project path="packages/apps/ExactCalculator" name="LineageOS-mirror/android_packages_apps_ExactCalculator.git" groups="pdk-fs" />
+  <project path="packages/apps/Exchange" name="LineageOS-mirror/android_packages_apps_Exchange.git" groups="pdk-fs" />
   <project path="packages/apps/FDroidPrivilegedExtension" name="privileged-extension.git" remote="fdroid" revision="refs/tags/0.2.1" />
-  <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" groups="pdk-fs" />
+  <project path="packages/apps/FMRadio" name="LineageOS-mirror/android_packages_apps_FMRadio.git" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" remote="aosp" />
-  <project path="packages/apps/Gallery2" name="LineageOS/android_packages_apps_Gallery2" groups="pdk-fs" />
-  <project path="packages/apps/Gello" name="LineageOS/android_packages_apps_Gello" />
-  <project path="packages/apps/HTMLViewer" name="LineageOS/android_packages_apps_HTMLViewer" groups="pdk-fs" />
-  <project path="packages/apps/InCallUI" name="LineageOS/android_packages_apps_InCallUI" groups="pdk-fs" />
-  <project path="packages/apps/KeyChain" name="LineageOS/android_packages_apps_KeyChain" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="LineageOS-mirror/android_packages_apps_Gallery2.git" groups="pdk-fs" />
+  <project path="packages/apps/Gello" name="LineageOS-mirror/android_packages_apps_Gello.git" />
+  <project path="packages/apps/HTMLViewer" name="LineageOS-mirror/android_packages_apps_HTMLViewer.git" groups="pdk-fs" />
+  <project path="packages/apps/InCallUI" name="LineageOS-mirror/android_packages_apps_InCallUI.git" groups="pdk-fs" />
+  <project path="packages/apps/KeyChain" name="LineageOS-mirror/android_packages_apps_KeyChain.git" groups="pdk-fs" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock.git" remote="fossencdi" />
-  <project path="packages/apps/ManagedProvisioning" name="LineageOS/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
+  <project path="packages/apps/ManagedProvisioning" name="LineageOS-mirror/android_packages_apps_ManagedProvisioning.git" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging.git" remote="fossencdi" groups="pdk-fs" />
-  <project path="packages/apps/Nfc" name="LineageOS/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="LineageOS/android_packages_apps_PackageInstaller" groups="pdk-fs" />
-  <project path="packages/apps/PhoneCommon" name="LineageOS/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
-  <project path="packages/apps/Provision" name="LineageOS/android_packages_apps_Provision" groups="pdk-fs" />
-  <project path="packages/apps/Screencast" name="LineageOS/android_packages_apps_Screencast" />
+  <project path="packages/apps/Nfc" name="LineageOS-mirror/android_packages_apps_Nfc.git" groups="apps_nfc,pdk-fs" />
+  <project path="packages/apps/PackageInstaller" name="LineageOS-mirror/android_packages_apps_PackageInstaller.git" groups="pdk-fs" />
+  <project path="packages/apps/PhoneCommon" name="LineageOS-mirror/android_packages_apps_PhoneCommon.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Profiles" name="LineageOS-mirror/android_packages_apps_Profiles.git" />
+  <project path="packages/apps/Provision" name="LineageOS-mirror/android_packages_apps_Provision.git" groups="pdk-fs" />
+  <project path="packages/apps/Screencast" name="LineageOS-mirror/android_packages_apps_Screencast.git" />
   <project path="packages/apps/Settings" name="packages_apps_Settings.git" remote="fossencdi" groups="pdk-fs" />
-  <project path="packages/apps/SetupWizard" name="LineageOS/android_packages_apps_SetupWizard" />
-  <project path="packages/apps/SmartCardService" name="LineageOS/android_packages_apps_SmartCardService" groups="pdk-fs" />
-  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
-  <project path="packages/apps/SoundRecorder" name="LineageOS/android_packages_apps_SoundRecorder" groups="pdk-fs" />
-  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
-  <project path="packages/apps/Tag" name="LineageOS/android_packages_apps_Tag" groups="pdk-fs" />
-  <project path="packages/apps/Terminal" name="LineageOS/android_packages_apps_Terminal" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" name="LineageOS-mirror/android_packages_apps_SetupWizard.git" />
+  <project path="packages/apps/SmartCardService" name="LineageOS-mirror/android_packages_apps_SmartCardService.git" groups="pdk-fs" />
+  <project path="packages/apps/Snap" name="LineageOS-mirror/android_packages_apps_Snap.git" />
+  <project path="packages/apps/SoundRecorder" name="LineageOS-mirror/android_packages_apps_SoundRecorder.git" groups="pdk-fs" />
+  <project path="packages/apps/Stk" name="LineageOS-mirror/android_packages_apps_Stk.git" groups="apps_stk,pdk-fs" />
+  <project path="packages/apps/Tag" name="LineageOS-mirror/android_packages_apps_Tag.git" groups="pdk-fs" />
+  <project path="packages/apps/Terminal" name="LineageOS-mirror/android_packages_apps_Terminal.git" groups="pdk-fs" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser.git" remote="fossencdi" />
-  <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/TvSettings" name="LineageOS/android_packages_apps_TvSettings" groups="generic_fs" />
-  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" groups="pdk-fs" />
-  <project path="packages/apps/WallpaperPicker" name="LineageOS/android_packages_apps_WallpaperPicker" />
-  <project path="packages/experimental" name="LineageOS/android_packages_experimental" />
-  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" />
-  <project path="packages/providers/BookmarkProvider" name="LineageOS/android_packages_providers_BookmarkProvider" groups="pdk-fs" />
-  <project path="packages/providers/CalendarProvider" name="LineageOS/android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/CallLogProvider" name="LineageOS/android_packages_providers_CallLogProvider" groups="pdk-fs" />
+  <project path="packages/apps/Trebuchet" name="LineageOS-mirror/android_packages_apps_Trebuchet.git" />
+  <project path="packages/apps/TvSettings" name="LineageOS-mirror/android_packages_apps_TvSettings.git" groups="generic_fs" />
+  <project path="packages/apps/UnifiedEmail" name="LineageOS-mirror/android_packages_apps_UnifiedEmail.git" groups="pdk-fs" />
+  <project path="packages/apps/WallpaperPicker" name="LineageOS-mirror/android_packages_apps_WallpaperPicker.git" />
+  <project path="packages/experimental" name="LineageOS-mirror/android_packages_experimental.git" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS-mirror/android_packages_inputmethods_LatinIME.git" groups="pdk-fs" />
+  <project path="packages/providers/BookmarkProvider" name="LineageOS-mirror/android_packages_providers_BookmarkProvider.git" groups="pdk-fs" />
+  <project path="packages/providers/CalendarProvider" name="LineageOS-mirror/android_packages_providers_CalendarProvider.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/CallLogProvider" name="LineageOS-mirror/android_packages_providers_CallLogProvider.git" groups="pdk-fs" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider.git" remote="fossencdi" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
-  <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/MediaProvider" name="LineageOS/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS/android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/ThemesProvider" name="LineageOS/android_packages_providers_ThemesProvider" />
-  <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" />
-  <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
-  <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
-  <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
-  <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
-  <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telecomm" name="LineageOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/Telephony" name="LineageOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/ThemeManagerService" name="LineageOS/android_packages_services_ThemeManagerService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/wallpapers/Basic" name="LineageOS/android_packages_wallpapers_Basic" groups="pdk-fs" />
-  <project path="packages/wallpapers/Galaxy4" name="LineageOS/android_packages_wallpapers_Galaxy4" groups="pdk-fs" />
-  <project path="packages/wallpapers/HoloSpiral" name="LineageOS/android_packages_wallpapers_HoloSpiral" groups="pdk-fs" />
-  <project path="packages/wallpapers/LivePicker" name="LineageOS/android_packages_wallpapers_LivePicker" groups="pdk-fs" />
-  <project path="packages/wallpapers/MagicSmoke" name="LineageOS/android_packages_wallpapers_MagicSmoke" groups="pdk-fs" />
-  <project path="packages/wallpapers/NoiseField" name="LineageOS/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
-  <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
-  <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" groups="notdefault,pdk" />
-  <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
+  <project path="packages/providers/DataUsageProvider" name="LineageOS-mirror/android_packages_providers_DataUsageProvider.git" />
+  <project path="packages/providers/DownloadProvider" name="LineageOS-mirror/android_packages_providers_DownloadProvider.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/MediaProvider" name="LineageOS-mirror/android_packages_providers_MediaProvider.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="LineageOS-mirror/android_packages_providers_PartnerBookmarksProvider.git" groups="pdk-fs" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS-mirror/android_packages_providers_TelephonyProvider.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/ThemesProvider" name="LineageOS-mirror/android_packages_providers_ThemesProvider.git" />
+  <project path="packages/providers/TvProvider" name="LineageOS-mirror/android_packages_providers_TvProvider.git" groups="pdk-fs" />
+  <project path="packages/providers/UserDictionaryProvider" name="LineageOS-mirror/android_packages_providers_UserDictionaryProvider.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/providers/WeatherProvider" name="LineageOS-mirror/android_packages_providers_WeatherProvider.git" />
+  <project path="packages/screensavers/Basic" name="LineageOS-mirror/android_packages_screensavers_Basic.git" groups="pdk-fs" />
+  <project path="packages/screensavers/PhotoTable" name="LineageOS-mirror/android_packages_screensavers_PhotoTable.git" groups="pdk-fs" />
+  <project path="packages/screensavers/WebView" name="LineageOS-mirror/android_packages_screensavers_WebView.git" groups="pdk-fs" />
+  <project path="packages/services/CMAudioService" name="LineageOS-mirror/android_packages_services_CMAudioService.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/LiveLockScreenService" name="LineageOS-mirror/android_packages_services_LiveLockScreenService.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Mms" name="LineageOS-mirror/android_packages_services_Mms.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telecomm" name="LineageOS-mirror/android_packages_services_Telecomm.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/Telephony" name="LineageOS-mirror/android_packages_services_Telephony.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/ThemeManagerService" name="LineageOS-mirror/android_packages_services_ThemeManagerService.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/services/WeatherService" name="LineageOS-mirror/android_packages_services_WeatherService.git" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/wallpapers/Basic" name="LineageOS-mirror/android_packages_wallpapers_Basic.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/Galaxy4" name="LineageOS-mirror/android_packages_wallpapers_Galaxy4.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/HoloSpiral" name="LineageOS-mirror/android_packages_wallpapers_HoloSpiral.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/LivePicker" name="LineageOS-mirror/android_packages_wallpapers_LivePicker.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/MagicSmoke" name="LineageOS-mirror/android_packages_wallpapers_MagicSmoke.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/NoiseField" name="LineageOS-mirror/android_packages_wallpapers_NoiseField.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/PhaseBeam" name="LineageOS-mirror/android_packages_wallpapers_PhaseBeam.git" groups="pdk-fs" />
+  <project path="packages/wallpapers/PhotoPhase" name="LineageOS-mirror/android_packages_wallpapers_PhotoPhase.git" />
+  <project path="prebuilts/cmsdk" name="LineageOS-mirror/android_prebuilts_cmsdk.git" clone-depth="1" revision="master" groups="notdefault,pdk" />
+  <project path="system/bt" name="LineageOS-mirror/android_system_bt.git" groups="pdk" />
   <project path="system/core" name="system_core.git" remote="fossencdi" groups="pdk" />
-  <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
-  <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
-  <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
-  <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
-  <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
-  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
+  <project path="system/extras" name="LineageOS-mirror/android_system_extras.git" groups="pdk" />
+  <project path="system/extras/su" name="LineageOS-mirror/android_system_extras_su.git" />
+  <project path="system/keymaster" name="LineageOS-mirror/android_system_keymaster.git" groups="pdk" />
+  <project path="system/media" name="LineageOS-mirror/android_system_media.git" groups="pdk" />
+  <project path="system/netd" name="LineageOS-mirror/android_system_netd.git" groups="pdk" />
+  <project path="system/qcom" name="LineageOS-mirror/android_system_qcom.git" groups="qcom" />
+  <project path="system/security" name="LineageOS-mirror/android_system_security.git" groups="pdk" />
+  <project path="system/vold" name="LineageOS-mirror/android_system_vold.git" groups="pdk" />
   <project path="vendor/replicant" name="vendor_replicant.git" remote="fossencdi" />
   <project path="vendor/cmsdk" name="vendor_cmsdk.git" remote="fossencdi" />
 
 <!-- CMSDK SAMPLES -->
-  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
-  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS-mirror/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS-mirror/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS-mirror/android_packages_apps_YahooWeatherProvider" />
 <!-- END CMSDK SAMPLES -->
 
 <!-- END LINEAGEOS -->
@@ -510,10 +510,10 @@
 <!-- END AOSP -->
 
 <!-- TOOLCHAIN -->
-<project path="toolchain/src/binutils" name="toolchain_binutils.git" remote="fossencdi" />
-<project path="toolchain/src/gcc" name="toolchain_gcc.git" remote="fossencdi" />
-<project path="toolchain/src/jack" name="toolchain_jack.git" remote="fossencdi" />
-<project path="toolchain/src/jill" name="toolchain_jill.git" remote="fossencdi" />
+<project path="toolchain/src/binutils" name="replicant/toolchain_binutils.git" remote="replicant" />
+<project path="toolchain/src/gcc" name="replicant/toolchain_gcc.git" remote="replicant" />
+<project path="toolchain/src/jack" name="replicant/toolchain_jack.git" remote="replicant" />
+<project path="toolchain/src/jill" name="replicant/toolchain_jill.git" remote="replicant" />
 
 <!-- KERNEL -->
   <project path="kernel/samsung/smdk4412" name="kernel_samsung_smdk4412.git" remote="fossencdi" />
@@ -524,12 +524,12 @@
   <project path="device/samsung/i9305" name="device_samsung_i9305.git" remote="fossencdi" />
   <project path="device/samsung/galaxys2-common" name="device_samsung_galaxys2-common.git" remote="fossencdi" />
   <project path="device/samsung/smdk4412-common" name="device_samsung_smdk4412-common.git" remote="fossencdi" />
-  <project path="device/samsung/smdk4412-qcom-common" name="LineageOS/android_device_samsung_smdk4412-qcom-common" />
+  <project path="device/samsung/smdk4412-qcom-common" name="LineageOS-mirror/android_device_samsung_smdk4412-qcom-common" />
   <project path="hardware/ril/samsung-ril" name="hardware_ril_samsung-ril.git" remote="fossencdi" />
   <project path="external/libsamsung-ipc" name="external_libsamsung-ipc.git" remote="fossencdi" />
-  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" />
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS-mirror/android_packages_apps_SamsungServiceMode" />
+  <project path="hardware/samsung" name="LineageOS-mirror/android_hardware_samsung" />
   <project path="hardware/tinyalsa-audio" name="hardware_tinyalsa-audio" remote="fossencdi" />
-  <project path="external/stlport" name="LineageOS/android_external_stlport" />
+  <project path="external/stlport" name="LineageOS-mirror/android_external_stlport" />
 
 </manifest>
