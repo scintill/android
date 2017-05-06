@@ -6,15 +6,11 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-6.0.1_r78" />
 
-  <remote  name="cm-mirror"
-           fetch="https://code.fossencdi.org/cm-mirror/" />
-
-  <remote name="fossencdi"
-	  fetch="https://code.fossencdi.org/" />
+  <remote  name="lineage-mirror"
+           fetch=".." />
 
   <remote name="replicant"
-	  fetch="https://git.replicant.us/"
-          revision="replicant-4.2" />
+	  fetch=".." />
 
   <remote name="fdroid"
 	  fetch="https://gitlab.com/fdroid/" />
@@ -23,7 +19,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/tags/replicant-6.0-beta-0002"
-           remote="cm-mirror"
+           remote="lineage-mirror"
            sync-c="true"
            sync-j="4" />
 
