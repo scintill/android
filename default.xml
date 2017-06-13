@@ -191,7 +191,7 @@
   <project path="hardware/intel/img/hwcomposer" name="LineageOS-mirror/android_hardware_intel_img_hwcomposer.git" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="LineageOS-mirror/android_hardware_intel_img_psb_headers.git" groups="intel" />
   <project path="hardware/libhardware" name="replicant/hardware_libhardware.git" remote="replicant" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS-mirror/android_hardware_libhardware_legacy.git" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="replicant/hardware_libhardware_legacy.git" remote="replicant" groups="pdk" />
   <include name="snippets/hal_cm_all.xml" />
   <project path="hardware/samsung_slsi/exynos5" name="LineageOS-mirror/android_hardware_samsung_slsi_exynos5.git" />
   <project path="hardware/ti/omap4" name="replicant/hardware_ti_omap4.git" remote="replicant" />
