@@ -239,7 +239,7 @@
   <project path="packages/apps/Provision" name="LineageOS-mirror/android_packages_apps_Provision.git" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="LineageOS-mirror/android_packages_apps_Screencast.git" />
   <project path="packages/apps/Settings" name="replicant/packages_apps_Settings.git" remote="replicant" groups="pdk-fs" />
-  <project path="packages/apps/SetupWizard" name="LineageOS-mirror/android_packages_apps_SetupWizard.git" />
+  <project path="packages/apps/SetupWizard" name="replicant/packages_apps_SetupWizard.git" remote="replicant" />
   <project path="packages/apps/SmartCardService" name="LineageOS-mirror/android_packages_apps_SmartCardService.git" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="LineageOS-mirror/android_packages_apps_Snap.git" />
   <project path="packages/apps/SoundRecorder" name="LineageOS-mirror/android_packages_apps_SoundRecorder.git" groups="pdk-fs" />
