@@ -15,7 +15,7 @@
 
   <remote name="fdroid"
 	  fetch="https://gitlab.com/fdroid/"
-	  revision="refs/tags/0.2.4" />
+	  revision="refs/tags/0.2.6" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
