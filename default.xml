@@ -33,7 +33,7 @@
   <project path="art" name="LineageOS-mirror/android_art.git" groups="pdk" />
   <project path="bionic" name="LineageOS-mirror/android_bionic.git" groups="pdk" />
   <project path="bootable/recovery" name="replicant/bootable_recovery.git" remote="replicant" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="marshmallow-cts-release" remote="aosp" />
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" revision="refs/tags/android-cts-6.0_r22" remote="aosp" />
   <project path="dalvik" name="LineageOS-mirror/android_dalvik.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="development" name="LineageOS-mirror/android_development.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="LineageOS-mirror/android_device_common.git" groups="pdk-cw-fs,pdk-fs" />
