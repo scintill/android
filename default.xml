@@ -77,6 +77,7 @@
   <project path="external/fsck_msdos" name="LineageOS-mirror/android_external_fsck_msdos.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/fuse" name="LineageOS-mirror/android_external_fuse.git" />
   <project path="external/gello-build" name="LineageOS-mirror/android_external_gello_build.git" />
+  <project path="external/giflib" name="LineageOS-mirror/android_external_giflib.git" groups="pdk,qcom_msm8x26" />
   <project path="external/gmock" name="LineageOS-mirror/android_external_gmock.git"/>
   <project path="external/gptfdisk" name="LineageOS-mirror/android_external_gptfdisk.git" groups="pdk-fs" />
   <project path="external/gson" name="LineageOS-mirror/android_external_gson.git" />
@@ -129,6 +130,7 @@
   <project path="external/protobuf-c" name="LineageOS-mirror/android_external_protobuf-c.git" />
   <project path="external/rsync" name="LineageOS-mirror/android_external_rsync.git" />
   <project path="external/sepolicy" name="LineageOS-mirror/android_external_sepolicy.git" groups="pdk" />
+  <project path="external/sfntly" name="LineageOS-mirror/android_external_sfntly.git" groups="pdk,qcom_msm8x26" />
   <project path="external/skia" name="LineageOS-mirror/android_external_skia.git" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="LineageOS-mirror/android_external_sonivox.git" groups="pdk" />
   <project path="external/speex" name="LineageOS-mirror/android_external_speex.git" groups="pdk" />
@@ -141,8 +143,10 @@
   <project path="external/tinycompress" name="LineageOS-mirror/android_external_tinycompress.git" groups="pdk" />
   <project path="external/tinyxml2" name="LineageOS-mirror/android_external_tinyxml2.git" groups="pdk" />
   <project path="external/toybox" name="LineageOS-mirror/android_external_toybox.git" groups="pdk" />
+  <project path="external/tremolo" name="LineageOS-mirror/android_external_tremolo.git" groups="pdk" />
   <project path="external/uicommon" name="LineageOS-mirror/android_external_cyanogen_UICommon.git" />
   <project path="external/unzip" name="LineageOS-mirror/android_external_unzip.git" />
+  <project path="external/v8" name="LineageOS-mirror/android_external_v8.git" groups="pdk" />
   <project path="external/vim" name="LineageOS-mirror/android_external_vim.git" />
   <project path="external/vogar" name="LineageOS-mirror/android_external_vogar.git" groups="pdk" />
   <project path="external/wpa_supplicant_8" name="LineageOS-mirror/android_external_wpa_supplicant_8.git" groups="pdk" />
@@ -357,7 +361,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" remote="aosp" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" remote="aosp" />
   <project path="external/fonttools" name="platform/external/fonttools" groups="pdk-fs" remote="aosp" />
-  <project path="external/giflib" name="platform/external/giflib" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/glide" name="platform/external/glide" groups="pdk-fs" remote="aosp" />
   <project path="external/google-breakpad" name="platform/external/google-breakpad" groups="dragon" remote="aosp" />
   <project path="external/google-fonts/carrois-gothic-sc" name="platform/external/google-fonts/carrois-gothic-sc" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -446,7 +449,6 @@
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" remote="aosp" />
   <project path="external/scrypt" name="platform/external/scrypt" groups="pdk" remote="aosp" />
   <project path="external/selinux" name="platform/external/selinux" groups="pdk" remote="aosp" />
-  <project path="external/sfntly" name="platform/external/sfntly" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/slf4j" name="platform/external/slf4j" groups="pdk-fs" remote="aosp" />
   <project path="external/smali" name="platform/external/smali" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" remote="aosp" />
@@ -456,8 +458,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" remote="aosp" />
-  <project path="external/v8" name="platform/external/v8" groups="pdk" remote="aosp" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" remote="aosp" />
   <project path="external/vboot_reference" name="platform/external/vboot_reference" groups="vboot" remote="aosp" />
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" remote="aosp" />
