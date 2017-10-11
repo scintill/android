@@ -570,4 +570,6 @@
   <project path="external/libiconv" name="scintill/android-libiconv" revision="master" remote="github" />
   <project path="external/dbus" name="platform/external/dbus" revision="4b89f77a3cd53a7b55321f0960c7e5b23db9f63a" remote="aosp" /><!-- revision inbetween JB and N release - neither endpoint will build against this tree -->
   <project path="external/qmiserial2qmuxd" name="scintill/qmiserial2qmuxd" revision="for-ril" remote="github" />
+  <project name="scintill/qrtr" path="external/qrtr" remote="github-private" />
+  <project name="scintill/rmtfs" path="external/rmtfs" remote="github-private" />
 </manifest>
