@@ -170,7 +170,7 @@
   <project path="frameworks/opt/net/wifi" name="LineageOS-mirror/android_frameworks_opt_net_wifi.git" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="LineageOS-mirror/android_frameworks_opt_photoviewer.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="LineageOS-mirror/android_frameworks_opt_setupwizard.git" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="scintill/android_frameworks_opt_telephony.git" groups="pdk" remote="github-scintill" />
+  <project path="frameworks/opt/telephony" name="scintill/android_frameworks_opt_telephony.git" groups="pdk" remote="github" revision="replicant-6.0" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS-mirror/android_frameworks_opt_timezonepicker.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="LineageOS-mirror/android_frameworks_opt_vcard.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="LineageOS-mirror/android_frameworks_rs.git" groups="pdk" />
@@ -544,17 +544,13 @@
   <remote  name="github"
 		  fetch="https://github.com/"
           />
-  <remote  name="github-scintill"
-	  fetch="https://github.com/"
-          revision="replicant-6.0"
-          />
 
-  <project name="scintill/android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github-scintill" />
-  <project name="scintill/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github-scintill" />
-  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
-  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" />
-  <project name="scintill/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github-scintill" />
-  <project name="scintill/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github-scintill" />
+  <project name="scintill/android_device_samsung_serranoltexx" path="device/samsung/serranoltexx" remote="github" revision="replicant-6.0" />
+  <project name="scintill/android_device_samsung_serrano-common" path="device/samsung/serrano-common" remote="github" revision="replicant-6.0" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-13.0" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-13.0" />
+  <project name="scintill/android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="github" revision="replicant-6.0" />
+  <project name="scintill/android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="github" revision="replicant-6.0" />
 
   <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-13.0-caf-8960" remote="github" />
   <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="cm-13.0-caf-8960" remote="github" />
@@ -568,7 +564,7 @@
   <project path="external/glib" name="scintill/android_external_glib" revision="2.32-android" remote="github" />
   <project path="external/libiconv" name="scintill/android-libiconv" revision="master" remote="github" />
   <project path="external/dbus" name="platform/external/dbus" revision="4b89f77a3cd53a7b55321f0960c7e5b23db9f63a" remote="aosp" /><!-- revision inbetween JB and N release - neither endpoint will build against this tree -->
-  <project name="scintill/qrtr" path="external/qrtr" remote="github-scintill" />
-  <project name="scintill/rmtfs" path="external/rmtfs" remote="github-scintill" />
-  <project name="scintill/libsmdpkt_wrapper" path="external/libsmdpkt_wrapper" remote="github-scintill" />
+  <project name="scintill/qrtr" path="external/qrtr" remote="github" revision="replicant-6.0" />
+  <project name="scintill/rmtfs" path="external/rmtfs" remote="github" revision="replicant-6.0" />
+  <project name="scintill/libsmdpkt_wrapper" path="external/libsmdpkt_wrapper" remote="github" revision="replicant-6.0" />
 </manifest>
