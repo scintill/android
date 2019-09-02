@@ -24,6 +24,10 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="github"
+		  fetch="https://github.com/"
+          />
+
 <!-- BEGIN LINEAGEOS AND REPLICANT -->
   <project path="build" name="replicant/build.git" remote="replicant" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -170,7 +174,7 @@
   <project path="frameworks/opt/net/wifi" name="LineageOS-mirror/android_frameworks_opt_net_wifi.git" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="LineageOS-mirror/android_frameworks_opt_photoviewer.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="LineageOS-mirror/android_frameworks_opt_setupwizard.git" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="LineageOS-mirror/android_frameworks_opt_telephony.git" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="scintill/android_frameworks_opt_telephony.git" groups="pdk" remote="github" revision="replicant-6.0" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS-mirror/android_frameworks_opt_timezonepicker.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="LineageOS-mirror/android_frameworks_opt_vcard.git" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="LineageOS-mirror/android_frameworks_rs.git" groups="pdk" />
@@ -541,4 +545,10 @@
   <project path="hardware/tinyalsa-audio" name="replicant/hardware_tinyalsa-audio.git" remote="replicant" />
   <project path="external/stlport" name="LineageOS-mirror/android_external_stlport.git" />
 
+<!-- RIL_OFONO -->
+  <project path="frameworks/opt/telephony_ril_ofono" name="scintill/android_frameworks_opt_telephony_ril_ofono" revision="master" remote="github" />
+  <project path="external/ofono" name="scintill/android_external_ofono" revision="master" remote="github" />
+  <project path="external/glib" name="scintill/android_external_glib" revision="2.32-android" remote="github" />
+  <project path="external/libiconv" name="scintill/android-libiconv" revision="master" remote="github" />
+  <project path="external/dbus" name="platform/external/dbus" revision="4b89f77a3cd53a7b55321f0960c7e5b23db9f63a" remote="aosp" /><!-- revision inbetween JB and N release - neither endpoint will build against this tree -->
 </manifest>
