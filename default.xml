@@ -7,10 +7,10 @@
            revision="refs/tags/android-6.0.1_r81" />
 
   <remote  name="lineage-mirror"
-           fetch=".." />
+	  fetch="https://git.replicant.us/" />
 
   <remote name="replicant"
-	  fetch=".." />
+	  fetch="https://git.replicant.us/" />
 
   <remote name="fdroid"
 	  fetch="https://gitlab.com/fdroid/"
