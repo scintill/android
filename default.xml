@@ -518,7 +518,7 @@
 <project path="toolchain/src/jill" name="replicant/toolchain_jill.git" remote="replicant" />
 
 <!-- KERNEL -->
-  <project path="kernel/samsung/smdk4412" name="replicant/kernel_samsung_smdk4412.git" remote="replicant" />
+  <project path="kernel/samsung/smdk4412" name="scintill/android_kernel_samsung_smdk4412.git" remote="github" revision="replicant-6.0" />
   <project path="kernel/samsung/tuna" name="replicant/kernel_samsung_tuna.git" remote="replicant" />
   <project path="kernel/samsung/espresso10" name="replicant/kernel_samsung_espresso10.git" remote="replicant" />
 
@@ -527,6 +527,7 @@
   <project path="device/samsung/n7000" name="replicant/device_samsung_n7000.git" remote="replicant" />
   <project path="device/samsung/i9300" name="replicant/device_samsung_i9300.git" remote="replicant" />
   <project path="device/samsung/i9305" name="replicant/device_samsung_i9305.git" remote="replicant" />
+  <project path="device/samsung/t0lte" name="scintill/android_device_samsung_t0lte.git" remote="github" revision="replicant-6.0" />
   <project path="device/samsung/n7100" name="replicant/device_samsung_n7100.git" remote="replicant" />
   <project path="device/samsung/n5100" name="replicant/device_samsung_n5100.git" remote="replicant" />
   <project path="device/samsung/n5110" name="replicant/device_samsung_n5110.git" remote="replicant" />
@@ -536,7 +537,7 @@
   <project path="device/samsung/espresso3g" name="replicant/device_samsung_espresso3g.git" remote="replicant" />
   <project path="device/samsung/galaxys2-common" name="replicant/device_samsung_galaxys2-common.git" remote="replicant" />
   <project path="device/samsung/smdk4412-common" name="replicant/device_samsung_smdk4412-common.git" remote="replicant" />
-  <project path="device/samsung/smdk4412-qcom-common" name="LineageOS-mirror/android_device_samsung_smdk4412-qcom-common.git" />
+  <project path="device/samsung/smdk4412-qcom-common" name="scintill/android_device_samsung_smdk4412-qcom-common.git" remote="github" revision="replicant-6.0" />
     <project path="device/samsung/kona-common" name="replicant/device_samsung_kona-common.git" remote="replicant" />
   <project path="hardware/ril/samsung-ril" name="replicant/hardware_ril_samsung-ril.git" remote="replicant" />
   <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc.git" remote="replicant" />
